@@ -32,7 +32,7 @@ The following techniques and technologies are exploited in this App:
 
 ## 📁 Accessing the project
 
-You can [download the zip](https://github.com/HassanOliveira/Kotlin/archive/refs/heads/master.zip) or [access the source code](https://github.com/HassanOliveira/Kotlin/tree/master/BITbank/src/main/kotlin/Main.kt) of the final project:
+You can [download the zip](https://github.com/HassanOliveira/Kotlin/archive/refs/heads/master.zip) or [access the source code](https://github.com/HassanOliveira/Kotlin/blob/master/BITbank/src/main/kotlin/Main.kt) of the final project.
 
 ## 🛠️ Open and run the project
 
