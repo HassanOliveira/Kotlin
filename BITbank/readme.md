@@ -1,43 +1,62 @@
 # BITbank
 
-O BITbank é um projeto em Kotlin que simula um banco de dados digital. O App trata-se de uma aplicação em console, ou seja, para apresentar resultados diferentes, é necessário modificar o código fonte e executá-lo novamente.
+BITbank is a project in Kotlin that simulates a digital database. The App is a console application, meaning that to present different results, you need to modify the source code and run it again.
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Project features
 
-A partir do App você pode:
+From the App you can:
 
-- Criar contas
-- Depositar e sacar dinheiro
-- Transferir dinheiro entre as contas
+- Create accounts
+- Deposit and withdraw money
+- Transfer money between accounts
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and technologies used
 
-Neste App são exploradas as seguintes técnicas e tecnologias:
+The following techniques and technologies are exploited in this App:
 
-- **Função `main()`**: inicia o programa
-- **Variáveis mutáveis e imutáveis**: armazenar valores que podem ou não ser modificados
-- **Operações aritméticas**: soma, subtração, multiplicação e divisão
-- **Auto incremento**: adição incremental na mesma variável
-- **Strings e String template**: utilização de texto e concatenação de texto com variáveis ou funções
-- **Estrutura condicional**: `if` e `when`
-- **Estrutura de repetição ou laços**: `while` e `for` loop
-- **Implementação de classes**: definição de conta
-- **Criação de objetos**: instâncias para criar novas contas
-- **Construtores**: definição de como criar objetos
-- **Properties**: mecanismo para acessar campos/atributos das classes
-- **Métodos**: comportamentos da classe
-- **Parâmetros nomeados**: envio de argumentos especifícos para construtores, métodos ou funções
-- **Métodos de acesso**: restrição de acesso de membros de classe
-- **Testes Unitários**: testando as funções e classe
+- ** `main()` function**: starts the program
+- Mutable and immutable variables**: store values that can or cannot be changed
+- Arithmetic operations**: addition, subtraction, multiplication and division
+- Auto increment**: incremental addition in the same variable
+- String template**: using text and concatenating text with variables or functions
+- Conditional structure**: `if` and `when`
+- Repeating structure or loops**: `while` and `for` loop
+- Class implementation**: account definition
+- Creating objects**: instances for creating new accounts
+- Constructors**: defining how to create objects
+- Properties: mechanism for accessing fields/attributes of classes
+- **Methods**: class behaviors
+- Named parameters**: sending specific arguments to constructors, methods or functions
+- Access methods**: restricting access to class members
+- Unit Tests**: testing the functions and class
 
-## 📁 Acesso ao projeto
+## 📁 Accessing the project
 
-Você pode [baixar o zip](https://github.com/HassanOliveira/Kotlin/archive/refs/heads/master.zip) ou [acessar o código fonte](https://github.com/HassanOliveira/Kotlin/tree/master/BITbank) do projeto final:
+You can [download the zip](https://github.com/HassanOliveira/Kotlin/archive/refs/heads/master.zip) or [access the source code](https://github.com/HassanOliveira/Kotlin/tree/master/BITbank) of the final project:
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Open and run the project
 
-O projeto foi desenvolvido no IntelliJ IDEA, sendo assim, instale o IntelliJ (pode ser uma versão mais recente) e, na tela de launcher, procure a opção **Open** e clique nela. Deve apresentar um explorador de arquivos, procure o projeto em seu computador.
+The project was developed in IntelliJ IDEA, so install IntelliJ (it can be a newer version) and in the launcher screen, look for the **Open** option and click on it. It should display a file explorer, look for the project on your computer.
 
-> Caso baixou o zip, extraia o projeto antes de procurá-lo, pois não é possível abrir via arquivo zip
+> If you have downloaded the zip file, extract the project before looking for it, as it cannot be opened via zip file
 
-Após selecionar o projeto, clique em **OK** deve abrir o projeto. Apos abrir o projeto e finalizar todas as tarefas de configuração do projeto, abra o arquivo **sec/MainTest.kt** e execute ele, se tudo ocorrer como esperado, deve apresentar um resultado no console com todas as funcionalidades implementadas. 🏆
+After selecting the project, click **OK** it should open the project. After opening the project and finishing all the project configuration tasks, open the file **sec/MainTest.kt** and run it, if everything goes as expected, it should show a result in the console with all the implemented functionalities. 🏆
+
+### 🛠 Technologies
+
+The following tools were used in building the project:
+
+- [Kotlin](https://kotlinlang.org/)
+
+### 👨‍💻 Author
+
+<a href="http://www.devhbo.com">
+ <img style="border-radius: 50%;" src="http://www.devhbo.com/static/images/IMAGEM%20DE%20PERFIL.png" width="130px;" alt="MyPortfolio"/>
+ <br />
+ <sub><b>Hassan Bittencourt</b></sub></a> <a href="http://www.devhbo.com" title="Hassan Bittencourt">🚀</a>
+
+
+Made with ❤️ by Hassan Bittencourt 👋🏽 Contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hassanaboliveira/)](https://www.linkedin.com/in/hassanaboliveira/)
+[![Hotmail Badge](https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:hassan_bittencourt@hotmail.com)](mailto:hassan_bittencourt@hotmail.com)
