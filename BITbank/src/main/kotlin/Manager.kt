@@ -1,21 +1,16 @@
-class Manager (
+open class Manager (
     name: String,
     id: String,
     salary: Double,
-    val password: Int
-) : Employee(
+    password: Int
+) : EmployeeAdmin(
     name = name,
     id = id,
-    salary = salary
-) {
-    override fun bonus(): Double {
-        return super.bonus() + salary
-    }
-
-    fun authentication(password: Int): Boolean {
-        if(this.password == password){
-            return true
+    salary = salary,
+    password = password,
+), Authentication {
+    override val bonus: Double
+        get() {
+            return salary
         }
-        return false
-    }
 }

@@ -7,7 +7,8 @@ class Analyst(
     id = id,
     salary = salary
 ) {
-    override fun bonus(): Double {
-        return super.bonus() + salary * 0.1
-    }
+    override val bonus: Double
+        get() {
+            return salary * 0.1
+        }
 }

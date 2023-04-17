@@ -1,9 +1,7 @@
-open class Employee(
+abstract class Employee(
     val name: String,
     val id: String,
     val salary: Double,
 ) {
-    open fun bonus(): Double {
-        return salary * 0.1
-    }
+    abstract val bonus: Double
 }

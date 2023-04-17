@@ -3,6 +3,6 @@ class BonusCalculator {
         private set
 
     fun register(employee: Employee) {
-        this.total += employee.bonus()
+        this.total += employee.bonus
     }
 }

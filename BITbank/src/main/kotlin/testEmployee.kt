@@ -1,4 +1,4 @@
-fun testaFuncionarios() {
+fun testEmployee() {
     val hassan = Analyst(
         name = "Hassan",
         id = "111.111.111-11",
@@ -8,7 +8,7 @@ fun testaFuncionarios() {
     println("name: ${hassan.name}")
     println("id: ${hassan.id}")
     println("salary: ${hassan.salary}")
-    println("bonus: ${hassan.bonus()}")
+    println("bonus: ${hassan.bonus}")
 
     val augusto = Manager(
         name = "Augusto",
@@ -20,7 +20,7 @@ fun testaFuncionarios() {
     println("name: ${augusto.name}")
     println("id: ${augusto.id}")
     println("salary: ${augusto.salary}")
-    println("bonus: ${augusto.bonus()}")
+    println("bonus: ${augusto.bonus}")
 
     if (augusto.authentication(1234)) {
         println("successfully authenticated")
@@ -39,7 +39,7 @@ fun testaFuncionarios() {
     println("name: ${charles.name}")
     println("id: ${charles.id}")
     println("salary: ${charles.salary}")
-    println("bonus: ${charles.bonus()}")
+    println("bonus: ${charles.bonus}")
     println("plr: ${charles.plr}")
 
     if (charles.authentication(4000)) {
